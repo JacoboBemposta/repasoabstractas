@@ -31,10 +31,15 @@ public class RepasoAbstractas {
         
         
         ultra=new Ultraligero("ultra1","ultra1","rojo",2500);
+        listamedios.add(ultra);
         vela=new Vela("vela1","vela1","rojo",1,75);
+        listamedios.add(vela);
         motor=new Motor("motor1","motor1","rojo",250,250);
+        listamedios.add(motor);
         animal=new Animal("animal1","animal1","rojo","burro",200);
+        listamedios.add(animal);
         rueda=new Ruedassinmotor("rueda1","rueda1","rojo","bicicleta",2);
+        listamedios.add(rueda);
         
         do{
         opcion=Menu(); 
@@ -343,7 +348,6 @@ public class RepasoAbstractas {
                    }while(seleccion!=0);
                    break;   
                case 6:
-                   System.out.println("Veamos todos");
                    ver_todos(listamedios);
                    break;
            }
