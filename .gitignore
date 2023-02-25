@@ -23,4 +23,5 @@
 hs_err_pid*
 manifest.mf
 build
+build.xml
 nbproject
