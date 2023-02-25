@@ -37,11 +37,12 @@ public class Motor extends Mediotrans implements Iadmon_medios {
     
     @Override
     public void ver_medio() {
-        System.out.println("Ultraligero con numero de serie "+num_elemento);
+        System.out.println("Transporte a motor con numero de serie "+num_elemento);
         System.out.println("Marca "+marca);
         System.out.println("Modelo "+modelo);
         System.out.println("Color "+color);
-        System.out.println("Tiene una potencia de "+cv+" cv y una cilindrada de "+cilindrada);;
+        System.out.println("Tiene una potencia de "+cv+" cv y una cilindrada de "+cilindrada);
+        System.out.println("=========================================================");            
     }
 
     @Override

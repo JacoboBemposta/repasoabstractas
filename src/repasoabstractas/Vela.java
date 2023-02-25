@@ -36,12 +36,13 @@ public class Vela extends Mediotrans implements Iadmon_medios {
     
     @Override
     public void ver_medio() {
-        System.out.println("Ultraligero con numero de serie "+num_elemento);
+        System.out.println("Transporte a vela con numero de serie "+num_elemento);
         System.out.println("Marca "+marca);
         System.out.println("Modelo "+modelo);
         System.out.println("Color "+color);
         System.out.println("Tiene "+num_mastiles+" mastiles");
         System.out.println("Puede navegar con vientos de hasta "+viento_max);
+        System.out.println("=========================================================");            
     }
 
     @Override

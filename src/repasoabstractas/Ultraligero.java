@@ -39,6 +39,7 @@ public class Ultraligero extends Mediotrans implements Iadmon_medios {
         System.out.println("Modelo "+modelo);
         System.out.println("Color "+color);
         System.out.println("Puede planear a "+altura_planeo+" metros de altura");
+        System.out.println("=========================================================");    
     }
 
     @Override

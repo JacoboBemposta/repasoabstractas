@@ -22,7 +22,7 @@ public class Animal extends Mediotrans implements Iadmon_medios {
         System.out.println("Indica carga maxima");
         this.carga_max=teclado.nextInt();
     }    
-    public Animal(String marca,String modelo,String color,String especie,int carga_maxima){
+    public Animal(String marca,String modelo,String color,String especie,int carga_max){
         Scanner teclado=new Scanner(System.in);
         super.alta_basicos(marca, modelo, color);
         this.especie=especie;
@@ -37,11 +37,12 @@ public class Animal extends Mediotrans implements Iadmon_medios {
     
     @Override
     public void ver_medio() {
-        System.out.println("Ultraligero con numero de serie "+num_elemento);
+        System.out.println("Transporte animal con numero de serie "+num_elemento);
         System.out.println("Marca "+marca);
         System.out.println("Modelo "+modelo);
         System.out.println("Color "+color);
         System.out.println("El transporte es un "+especie+" y puede transportar "+carga_max+" Kg.");
+        System.out.println("=========================================================");            
     }
 
     @Override

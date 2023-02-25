@@ -36,11 +36,12 @@ public class Ruedassinmotor extends Mediotrans implements Iadmon_medios {
     
     @Override
     public void ver_medio() {
-        System.out.println("Ultraligero con numero de serie "+num_elemento);
+        System.out.println("Transporte sin motor con numero de serie "+num_elemento);
         System.out.println("Marca "+marca);
         System.out.println("Modelo "+modelo);
         System.out.println("Color "+color);
-        System.out.println("El transporte tiene "+num_ruedas+" de tipo "+tipo);
+        System.out.println("El transporte tiene "+num_ruedas+" ruedas y es  tipo "+tipo);
+        System.out.println("=========================================================");            
     }
 
     @Override
